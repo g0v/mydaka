@@ -1,0 +1,9 @@
+{
+    "@context": {
+        "sd": "http://schema.org",
+        "workingHours": "sd:openingHours"
+    },
+    "sd:name": "Bob",
+    "sd:description": "CompanyA",
+    "workingHours": ["Mo,Tu,We,Th 09:00-12:00", "Mo,Tu,We,Th 13:00-17:30"]
+}
