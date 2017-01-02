@@ -1,0 +1,29 @@
+{
+  "name": "@y12/mydaka",
+  "version": "0.0.1",
+  "description": "A working hours JSON-LD documents tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/g0v/mydaka.git"
+  },
+  "keywords": [
+    "jsonld"
+  ],
+  "author": "JOYE LIN <y12studio@gmail.com> (https://y12.tw)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/g0v/mydaka/issues"
+  },
+  "homepage": "https://github.com/g0v/mydaka#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}

@@ -1,0 +1,32 @@
+<html lang="en" >
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Angular Material style sheet -->
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body ng-app="BlankApp" ng-cloak>
+  <!-- Angular Material requires Angular.js Libraries -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+  <!-- Angular Material Library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+  <script src="app.js"></script>
+<div ng-controller="AppCtrl" ng-cloak>
+  <md-content class="md-padding">
+    <md-nav-bar md-selected-nav-item="currentNavItem" nav-bar-aria-label="navigation links">
+      <md-nav-item md-nav-click="goto('p1')" name="p1">One</md-nav-item>
+      <md-nav-item md-nav-click="goto('p2')" name="p2">Two</md-nav-item>
+      <md-nav-item md-nav-click="goto('p3')" name="p3">Three</md-nav-item>
+    </md-nav-bar>
+    <div class="ext-content">
+      <span>{{currentNavItem}}</span>
+      <div layout-align="center">
+          <img src="time_key_in_fist.png"/>
+      </div>
+    </div>
+  </md-content>
+</body>
+</html>
