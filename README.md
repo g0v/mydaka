@@ -10,3 +10,9 @@ Demo : https://g0v.github.io/mydaka/
 OpeningHoursSpecification - schema.org  http://schema.org/OpeningHoursSpecification
 
 openingHours - schema.org  http://schema.org/openingHours
+
+http://json-ld.org/contexts/person.jsonld
+
+https://web-payments.org/contexts/security-v1.jsonld
+
+https://github.com/blockchain-certificates/cert-schema/blob/master/cert_schema/schema/1.2/context.json

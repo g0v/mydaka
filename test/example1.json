@@ -1,6 +1,21 @@
 {
     "@context": "https://g0v.github.io/mydaka/contexts/v1.jsonld",
-    "sd:name": "Bob",
-    "sd:description": "CompanyA",
-    "workingHours": ["Mo,Tu,We,Th 09:00-12:00", "Mo,Tu,We,Th 13:00-17:30"]
+    "name": "Bob",
+    "description": "CompanyA",
+    "workingHours": ["Mo,Tu,We,Th 09:00-12:00", "Mo,Tu,We,Th 13:00-17:30"],
+    "WorkingHoursSpec": [{
+            "@type": "WorkingHoursSpec",
+            "validFrom": "2013-12-24",
+            "validThrough": "2013-12-25",
+            "opens": "09:00",
+            "closes": "11:00"
+        },
+        {
+            "@type": "WorkingHoursSpec",
+            "validFrom": "2014-01-01",
+            "validThrough": "2014-01-01",
+            "opens": "12:00",
+            "closes": "14:00"
+        }
+    ]
 }
