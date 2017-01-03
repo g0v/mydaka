@@ -4,7 +4,7 @@
   "description": "A working hours JSON-LD documents tool",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter spec",
+    "test": "mocha",
     "buildjs": "browserify index.js -s mydaka -o mydaka.js && minify mydaka.js"
   },
   "repository": {
@@ -25,6 +25,7 @@
     "mocha": "^3.2.0"
   },
   "dependencies": {
+    "ajv": "^4.10.3",
     "lodash": "^4.17.4"
   }
 }

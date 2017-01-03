@@ -1,0 +1,49 @@
+{
+    "@context": {
+        "schema": "https://schema.org/",
+        "xsd": "https://www.w3.org/2001/XMLSchema#",
+        "mdk": "https://g0v.github.io/mydaka/#",
+
+
+        "name": "schema:name",
+        "description": "schema:description",
+        "workList": {
+            "@id": "mdk:workList",
+           "@container": "@set"
+        },
+        "workingHours": "schema:openingHours",
+        "validFrom": {
+            "@id": "schema:validFrom",
+            "@type": "xsd:dateTime"
+        },
+        "validThrough": {
+            "@id": "schema:validThrough",
+            "@type": "xsd:dateTime"
+        },
+        "opens": {
+            "@id": "schema:opens",
+            "@type": "xsd:time"
+        },
+        "closes": {
+            "@id": "schema:closes",
+            "@type": "xsd:time"
+        }
+    },
+    "name": "Bob",
+    "description": "CompanyA",
+    "workList": [{
+            "workingHours": "Mo,Tu,We,Th",
+            "validFrom": "2017-01-01",
+            "validThrough": "2017-12-31",
+            "opens": "09:00",
+            "closes": "12:00"
+        },
+        {
+            "workingHours": "Mo,Tu,We,Th",
+            "validFrom": "2017-01-01",
+            "validThrough": "2017-12-31",
+            "opens": "13:30",
+            "closes": "17:30"
+        }
+    ]
+}
