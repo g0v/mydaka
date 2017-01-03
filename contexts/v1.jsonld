@@ -1,0 +1,11 @@
+{
+    "@context": {
+        "id": "@id",
+        "type": "@type",
+        "sd": "http://schema.org",
+        "dc": "http://purl.org/dc/terms/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+        "workingHours": "sd:openingHours"
+    }
+}
